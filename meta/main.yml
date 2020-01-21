@@ -1,0 +1,31 @@
+---
+# Ansible Role: Oracle Express Database Engine
+
+dependencies:
+  - role: lordoftheflies.ansible_role_java
+
+galaxy_info:
+  author: 'László Hegedűs'
+  description: 'Ansible Galaxy role Oracle Express 18c Database Engine.'
+  company: 'Cherubits'
+  license: Apache-2.0
+  min_ansible_version: '2.4'
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - precise
+        - trusty
+        - xenial
+        - eon
+        - disco
+
+  galaxy_tags:
+    - ansible-galaxy
+    - ansible-role
+    - ansible
+    - oracle-express
+    - database
+    - engine
+    - ubuntu

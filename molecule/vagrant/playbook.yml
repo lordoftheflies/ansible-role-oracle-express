@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - ansible-role-oracle-express_deployment_users_home: /home/vagrant
+    - ansible-role-oracle-express_testing_provider: vagrant
+  roles:
+    - ansible-role-oracle-express

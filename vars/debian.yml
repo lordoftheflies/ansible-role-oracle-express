@@ -1,0 +1,5 @@
+---
+# roles/ansible-role-oracle-express/vars/debian.yml
+
+# Debian specific vars
+ansible-role-oracle-express_package_extension: 'deb'

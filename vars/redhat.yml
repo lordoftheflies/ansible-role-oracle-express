@@ -1,0 +1,4 @@
+---
+# roles/ansible-role-oracle-express/vars/debian.yml
+
+ansible-role-oracle-express_package_extension: 'rpm'
