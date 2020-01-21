@@ -1,14 +1,14 @@
-# roles/ansible-role-oracle-express/README.md
+# Ansible Role: Oracle Express Database Engine
 
 ## Status
 
-[![Build Status](https://travis-ci.org/cjsteel/ansible-role-oracle-express.svg?branch=master)](https://travis-ci.org/cjsteel/ansible-role-oracle-express)
-[![Travis CI](http://img.shields.io/travis/csteel/ansible-role-oracle-express/default.svg?style=flat)](http://travis-ci.org/csteel/ansible-role-oracle-express/default)
+[![Build Status](https://travis-ci.org/lordoftheflies/ansible-role-oracle-express.svg?branch=master)](https://travis-ci.org/lordoftheflies/ansible-role-oracle-express)
+[![Travis CI](http://img.shields.io/travis/lordoftheflies/ansible-role-oracle-express/default.svg?style=flat)](http://travis-ci.org/lordoftheflies/ansible-role-oracle-express/default)
 [![Platforms](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-lightgrey.svg?style=flat)](#)
 
 ## Description
 
-ansible-role-oracle-express is an Ansible role used to...
+Ansible Galaxy role Oracle Express 18c Database Engine.
 
 ## Roadmap
 
