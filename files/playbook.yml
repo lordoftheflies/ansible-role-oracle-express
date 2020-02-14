@@ -1,7 +1,7 @@
 ---
-# file: project/ansible-role-oracle-express.yml
+# file: project/oracle_express_role.yml
 
-- hosts: ansible-role-oracle-express
+- hosts: oracle_express_role
   become: false
   gather_facts: true
   pre_tasks:
@@ -9,7 +9,7 @@
     - set_fact: fact_role_name="{{ lookup('env','ANSIBLE_ROLE_NAME') }}"
     - debug: var=fact_role_name
 
-    - set_fact: fact_role_path="{{ lookup('pipe','pwd') }}/roles/ansible-role-oracle-express"
+    - set_fact: fact_role_path="{{ lookup('pipe','pwd') }}/roles/oracle_express_role"
     - debug: var=fact_role_path
 
   roles:
