@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-oracle-express/tasks/debug-group-and-host-vars.yml
+# roles/oracle_express_role/tasks/debug-group-and-host-vars.yml
 
 # Debug group_vars and host_vars values
 

@@ -1,6 +1,6 @@
---- # ansible-role-oracle-express/tests/travis_test.yml
+--- # oracle_express_role/tests/travis_test.yml
 
 - hosts: localhost
   become: true
   roles:
-    - ansible-role-oracle-express
+    - oracle_express_role
